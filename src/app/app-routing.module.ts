@@ -6,7 +6,7 @@ import { ProductComponent } from './components/product/product.component';
 
 const routes: Routes = [
   {path: 'home', component: ProductsGridComponent},
-  {path: 'product', component: ProductComponent},
+  {path: 'product/:id', component: ProductComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 
