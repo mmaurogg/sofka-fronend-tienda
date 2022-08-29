@@ -17,12 +17,17 @@ export class ProductsGridComponent implements OnInit {
                 private router: Router ) { }
 
   ngOnInit(): void {
+    
+    this.loadGridProducts(); 
+
+    //TODO: listener
+    window.addEventListener('mouseover', this.print )
+  }
+
+  loadGridProducts(){
     this.productService.getProducts().subscribe( resp => {
       this.products = resp;    
-    }); 
-
-    //listener
-    window.addEventListener('mouseover', this.print )
+    })
   }
 
   print(event: MouseEvent){
