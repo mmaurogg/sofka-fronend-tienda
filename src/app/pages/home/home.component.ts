@@ -11,20 +11,26 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   products:Product[]=[];
+  images: string[]=[]
 
   constructor( private productService: ProductService,
               private router: Router) { }
 
   ngOnInit(): void {
     this.loadProducts();
-    
+  
   }
 
 
   loadProducts(){
     this.productService.getProducts().subscribe( resp => {
-      this.products = resp;   
+      this.products = resp; 
+      this.imagesSlides();
     })
+  }
+
+  imagesSlides(){
+    this.products.forEach( prod => this.images.push(prod.image[0]))
   }
 
 

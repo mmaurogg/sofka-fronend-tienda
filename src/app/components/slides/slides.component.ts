@@ -9,7 +9,7 @@ import { Product } from '../../interfaces/products';
 })
 export class SlidesComponent implements OnInit {
 
-  @Input() products!: Product[];
+  @Input() images!: string[];
 
   constructor( private productService: ProductService
               ) {

@@ -10,7 +10,10 @@ let generateData = () => {
             "price": faker.random.numeric(),
             "stock": faker.random.numeric(),
             "category": faker.word.noun(),
-            "image": faker.image.abstract( 640, 480, true),
+            "image": [faker.image.abstract( 640, 480, true),
+                    faker.image.abstract( 640, 480, true),
+                    faker.image.abstract( 640, 480, true)
+                    ]
         });
     }
     return { "products": products }

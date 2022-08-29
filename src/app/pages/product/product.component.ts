@@ -11,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ProductComponent implements OnInit {
 
   product!:Product;
+  images!: string[];
 
   constructor( private productService: ProductService,
               private activateRoute: ActivatedRoute
@@ -23,7 +24,12 @@ export class ProductComponent implements OnInit {
   loadProduct(){
     const {id} = this.activateRoute.snapshot.params
 
-    this.productService.getProductById(id).subscribe(product => this.product = product);
+    this.productService.getProductById(id).subscribe(product => {
+      this.product = product;
+      this.images = this.product.image;
+
+    });
   }
+
 
 }
