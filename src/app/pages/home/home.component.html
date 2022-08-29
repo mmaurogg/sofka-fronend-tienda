@@ -1,0 +1,11 @@
+<h1 class="mt-2">Shop Store</h1>
+
+<div class="row" *ngIf="products.length > 0">
+    <div class="col">
+        <app-slides [products]="products"> </app-slides>
+    </div>
+</div>
+
+<h3 class="mt-5">Productos</h3>
+<hr>
+<app-products-grid *ngIf="products.length > 0" [products]="products"></app-products-grid>

@@ -7,23 +7,48 @@ import { map } from 'rxjs';
   providedIn: 'root',
 })
 export class ProductService {
-
-  products: any;
   
   constructor(private http: HttpClient) {}
 
+  URL = "http://localhost:3000/products";
+
   getProducts() {
-    return this.http.get('assets/datos.json').pipe(map( (resp:any) => resp.catalogo))
+    return this.http.get(this.URL).pipe(map( (resp:any) => resp))
   }
 
   getProductById(idProduct:string){
-    return this.http.get('assets/datos.json').pipe(map( (resp:any) => {
-      const products:Product[] = resp.catalogo;
+    return this.http.get(this.URL).pipe(map( (resp:any) => {
+      const products:Product[] = resp;
 
       const productFilter = products.filter(product => product.id == idProduct );
 
-      return productFilter[0]
+      return productFilter[0];
     
     }))
   }
+
+  searchProducts( text: string ){
+
+    return this.http.get(this.URL).pipe(map((resp:any) => {
+      
+      const products:Product[] = resp;
+      let productFilter:Product[] = [];
+      
+      text = text.toLowerCase();
+
+      products.forEach((prod: Product) => {
+
+        const nametoLower = prod.name.toLowerCase();
+        const categorytoLower = prod.category.toLowerCase();
+
+        if(nametoLower.indexOf(text) >= 0 || categorytoLower.indexOf(text) >= 0 ){
+          productFilter.push(prod); 
+        }
+      });
+
+      return productFilter;
+    })) 
+  }
+
+
 }

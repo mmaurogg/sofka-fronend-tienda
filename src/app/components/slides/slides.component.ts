@@ -1,7 +1,6 @@
-import { Component, OnInit, AfterContentInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterContentInit, AfterViewInit, Input } from '@angular/core';
 import { ProductService } from '../../services/product.service';
 import { Product } from '../../interfaces/products';
-import Swiper from 'swiper';
 
 @Component({
   selector: 'app-slides',
@@ -10,7 +9,7 @@ import Swiper from 'swiper';
 })
 export class SlidesComponent implements OnInit {
 
-  products: Product[] = [];
+  @Input() products!: Product[];
 
   constructor( private productService: ProductService
               ) {
@@ -19,7 +18,7 @@ export class SlidesComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.loadSlidesProducts()
+    // this.loadSlidesProducts()
     
   }
 
@@ -28,12 +27,12 @@ export class SlidesComponent implements OnInit {
 
   }
 
-  loadSlidesProducts(){
-    this.productService.getProducts().subscribe( resp => {
-      this.products = resp;    
-      console.log(this.products);
-    })
-  }
+  // loadSlidesProducts(){
+  //   this.productService.getProducts().subscribe( resp => {
+  //     this.products = resp;    
+  //     console.log(this.products);
+  //   })
+  // }
   
 
 }

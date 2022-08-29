@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { ProductsGridComponent } from './components/products-grid/products-grid.component';
-import { ProductComponent } from './components/product/product.component';
-import { SlidesComponent } from './components/slides/slides.component';
+
+import { HomeComponent } from './pages/home/home.component';
+import { ProductComponent } from './pages/product/product.component';
+import { SearchComponent } from './pages/search/search.component';
 
 const routes: Routes = [
-  {path: 'home', component: ProductsGridComponent},
-  {path: 'slides', component: SlidesComponent},
+  {path: 'home', component: HomeComponent},
   {path: 'product/:id', component: ProductComponent},
+  {path: 'search/:text', component: SearchComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 

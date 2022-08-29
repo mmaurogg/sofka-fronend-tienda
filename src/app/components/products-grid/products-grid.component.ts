@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ProductService } from '../../services/product.service';
 import { Product } from '../../interfaces/products';
 import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-products-grid',
@@ -10,25 +11,21 @@ import { Router } from '@angular/router';
 })
 export class ProductsGridComponent implements OnInit {
 
-  products:Product[]=[];
+  @Input() products!: Product[];
+
   hiddenInfo: boolean = true;
 
-  constructor( private productService: ProductService,
-                private router: Router ) { }
+  constructor( private router: Router ) { }
 
   ngOnInit(): void {
-    
-    this.loadGridProducts(); 
 
     //TODO: listener
-    window.addEventListener('mouseover', this.print )
+    window.addEventListener('mouseover', this.print );
+
+    console.log(this.products);
+    
   }
 
-  loadGridProducts(){
-    this.productService.getProducts().subscribe( resp => {
-      this.products = resp;    
-    })
-  }
 
   print(event: MouseEvent){
     let i = event.target;
