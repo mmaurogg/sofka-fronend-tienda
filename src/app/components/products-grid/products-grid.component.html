@@ -3,7 +3,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-4 0" >
         <div class="col" *ngFor="let product of products">
             <div class="card bg-dark text-white"(mouseover)="hiddenInfo" (click)="goToProduct(product.id)">
-                <img [src]="product.image" class="card-img" alt="..." id="{{product.id}}">
+                <img [src]="product.image" class="card-img" alt="..." [id]="product.id">
                 <div class="card-img-overlay" *ngIf="hiddenInfo">
                     <div class="card-body">
                         <h5 class="card-title">{{product.name}}</h5>

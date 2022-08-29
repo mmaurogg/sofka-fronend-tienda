@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterContentInit, AfterViewInit, Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ProductService } from '../../services/product.service';
 import { Product } from '../../interfaces/products';
 
@@ -11,28 +11,8 @@ export class SlidesComponent implements OnInit {
 
   @Input() images!: string[];
 
-  constructor( private productService: ProductService
-              ) {
+  constructor( ) { }
 
-               }
-
-  ngOnInit(): void {
-
-    // this.loadSlidesProducts()
-    
-  }
-
-  //ngAfterAfterViewInit(){
-  ngAfterContentInit(){
-
-  }
-
-  // loadSlidesProducts(){
-  //   this.productService.getProducts().subscribe( resp => {
-  //     this.products = resp;    
-  //     console.log(this.products);
-  //   })
-  // }
-  
+  ngOnInit(): void { }
 
 }

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Product } from '../interfaces/products';
-import { map } from 'rxjs';
+import { map, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -12,11 +12,11 @@ export class ProductService {
 
   URL = "http://localhost:3000/products";
 
-  getProducts() {
+  getProducts(): Observable<Product[]> {
     return this.http.get(this.URL).pipe(map( (resp:any) => resp))
   }
 
-  getProductById(idProduct:string){
+  getProductById(idProduct:string): Observable<Product>{
     return this.http.get(this.URL).pipe(map( (resp:any) => {
       const products:Product[] = resp;
 
@@ -27,7 +27,7 @@ export class ProductService {
     }))
   }
 
-  searchProducts( text: string ){
+  searchProducts( text: string ): Observable<Product[]> {
 
     return this.http.get(this.URL).pipe(map((resp:any) => {
       

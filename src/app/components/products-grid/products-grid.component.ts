@@ -1,8 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ProductService } from '../../services/product.service';
 import { Product } from '../../interfaces/products';
 import { Router } from '@angular/router';
-
 
 @Component({
   selector: 'app-products-grid',
