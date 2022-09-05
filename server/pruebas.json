@@ -1,0 +1,94 @@
+{
+  "products": [
+      {
+        "id": 1,
+        "name": "chocolate",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2013/09/18/18/24/chocolate-183543_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2017/04/12/16/56/chocolates-2224998_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2017/03/27/14/14/coffee-2179009_960_720.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "globo",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2017/06/17/10/55/hot-air-balloon-2411851_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2016/10/22/20/52/balloons-1761634_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2015/08/17/18/23/balloons-892806_960_720.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "perro",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2017/09/25/13/12/cocker-spaniel-2785074_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2015/11/17/13/13/bulldog-1047518_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2017/10/26/12/34/fantasy-2890925_960_720.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "silla",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2015/12/05/23/38/nursery-1078923_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2016/11/19/15/50/chair-1840011_960_720.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "ipad",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2015/02/02/15/28/bar-621033_960_720.jpg",
+          "ihttps://cdn.pixabay.com/photo/2016/11/29/06/18/apple-1867762_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2015/10/02/15/00/diary-968592_960_720.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "zapato",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2014/10/27/19/18/baby-shoes-505471_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2017/08/12/19/01/legs-2635038_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2014/09/03/20/15/shoes-434918_960_720.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "arbol",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-blossom-tree-1225186_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg"
+        ]
+      }
+]}
