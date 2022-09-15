@@ -3,5 +3,8 @@
 </div>
 
 <div class="container mt-2" *ngIf="products.length > 0 && !load">
-    <app-products-grid [products]="products"></app-products-grid>
+    <app-products-grid *ngIf="products.length > 0; else elseImg" [products]="products" (idProduct)="onGoToProduct($event)"></app-products-grid>
+    <ng-template #elseImg>
+    <img src="" >
+    </ng-template>
 </div>

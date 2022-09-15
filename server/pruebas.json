@@ -90,5 +90,304 @@
           "https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-blossom-tree-1225186_960_720.jpg",
           "https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg"
         ]
+      },
+      {
+        "id": 8,
+        "name": "Bicicleta",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2015/05/29/19/18/bicycle-789648_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2015/05/28/22/29/bicycle-788733_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2015/11/18/15/44/france-1049333_960_720.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Autos",
+        "description": "Cum animi error quia mollitia eligendi ducimus suscipit sit.\nTenetur consequatur ut sed perspiciatis.\nEsse culpa et consectetur suscipit et.\nTempora eum et aut reiciendis.\nEum quibusdam consequatur molestiae dolorem atque recusandae.",
+        "price": "2",
+        "stock": "4",
+        "category": "sum",
+        "image": [
+          "https://cdn.pixabay.com/photo/2015/05/28/23/12/auto-788747_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2016/02/22/20/22/bmw-1216469_960_720.jpg",
+          "https://cdn.pixabay.com/photo/2016/09/11/10/02/renault-juvaquatre-1661009_960_720.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "ride",
+        "description": "Vel numquam animi quaerat soluta voluptas autem non.\nVeritatis at mollitia ullam placeat voluptas.\nDignissimos blanditiis earum autem id ut quis.\nSequi minus in cum rerum omnis quae ipsam adipisci.\nEst praesentium rerum voluptatem illo.",
+        "price": "7",
+        "stock": "3",
+        "category": "student",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?37708",
+          "https://loremflickr.com/640/480/abstract?70973",
+          "https://loremflickr.com/640/480/abstract?7487"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "shackle",
+        "description": "Veritatis quia qui accusantium et nobis optio.\nItaque sed quisquam quia aliquid reiciendis sunt.\nDoloremque laudantium voluptatem perferendis quasi natus architecto aliquid dolor fuga.\nAmet enim autem omnis.\nDignissimos qui id natus illo.",
+        "price": "5",
+        "stock": "6",
+        "category": "vinegar",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?44452",
+          "https://loremflickr.com/640/480/abstract?39800",
+          "https://loremflickr.com/640/480/abstract?57962"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "couple",
+        "description": "Veritatis sint quasi reprehenderit.\nNihil rem placeat vel officia eos.\nIpsam quia praesentium quis et illum iusto qui et odio.\nRerum maxime et enim itaque doloremque molestias molestiae dolores.\nLaborum voluptas et maxime.",
+        "price": "6",
+        "stock": "1",
+        "category": "peacock",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?12703",
+          "https://loremflickr.com/640/480/abstract?84449",
+          "https://loremflickr.com/640/480/abstract?47548"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "flight",
+        "description": "Ipsam odio rerum repellendus pariatur perspiciatis et doloremque.\nOfficiis rerum excepturi qui dolore accusantium quo quibusdam voluptas.\nNihil nesciunt ut qui atque debitis ex eligendi deleniti iste.\nVoluptas voluptatem est tempora.\nQuo autem voluptatum.",
+        "price": "6",
+        "stock": "1",
+        "category": "safety",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?82073",
+          "https://loremflickr.com/640/480/abstract?48577",
+          "https://loremflickr.com/640/480/abstract?9149"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "packaging",
+        "description": "Enim minus ipsam deleniti consectetur dolor et eveniet.\nIpsum quod porro rerum eveniet.\nRepellat iusto voluptates doloremque.\nQuia quia in nemo assumenda harum aut dolore.\nNemo officiis sed sapiente maiores qui velit est.",
+        "price": "4",
+        "stock": "3",
+        "category": "island",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?11701",
+          "https://loremflickr.com/640/480/abstract?4144",
+          "https://loremflickr.com/640/480/abstract?64817"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "wingman",
+        "description": "Eos et dolores nihil qui eum sunt.\nEt non et nihil dicta exercitationem.\nVoluptatum sapiente culpa.\nEt veritatis sed sapiente optio vitae nostrum aut vel.\nQuisquam praesentium nulla delectus temporibus rem voluptate laudantium quod.",
+        "price": "6",
+        "stock": "2",
+        "category": "tsunami",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?78227",
+          "https://loremflickr.com/640/480/abstract?66792",
+          "https://loremflickr.com/640/480/abstract?29222"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "doorpost",
+        "description": "Et porro cumque enim vero atque voluptatibus repudiandae delectus.\nConsequatur modi impedit velit aut suscipit voluptatem est autem.\nDelectus architecto alias autem in rerum praesentium beatae aperiam.\nLibero nisi quas molestiae.\nNobis nihil unde est.",
+        "price": "7",
+        "stock": "8",
+        "category": "circumference",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?46298",
+          "https://loremflickr.com/640/480/abstract?73276",
+          "https://loremflickr.com/640/480/abstract?9902"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "stay",
+        "description": "Iste alias numquam sapiente reprehenderit voluptates.\nRepellat quaerat quaerat aspernatur sed qui illum.\nOfficiis delectus non est vitae consequatur ut.\nIncidunt corrupti porro fugiat esse.\nNon amet non quis in quis nulla.",
+        "price": "1",
+        "stock": "7",
+        "category": "controller",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?10030",
+          "https://loremflickr.com/640/480/abstract?18452",
+          "https://loremflickr.com/640/480/abstract?69248"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "grape",
+        "description": "Rem non maxime nam natus voluptatem.\nReiciendis qui est unde eveniet tenetur voluptas eum commodi.\nAssumenda distinctio enim.\nAliquam at sint quam et facere ut nihil expedita laudantium.\nMolestias voluptatem voluptatem et.",
+        "price": "4",
+        "stock": "5",
+        "category": "speakerphone",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?19032",
+          "https://loremflickr.com/640/480/abstract?19750",
+          "https://loremflickr.com/640/480/abstract?81300"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "fighter",
+        "description": "Accusantium et ut iste quis dicta.\nDolores et voluptates.\nSapiente officia sint rerum vero consectetur dolor voluptatibus delectus dolorum.\nSint debitis reiciendis.\nIste occaecati earum blanditiis ad odit dolor qui sit.",
+        "price": "5",
+        "stock": "6",
+        "category": "artichoke",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?71344",
+          "https://loremflickr.com/640/480/abstract?64671",
+          "https://loremflickr.com/640/480/abstract?70613"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "spirit",
+        "description": "Dolor fugiat occaecati repudiandae iure voluptatem explicabo nulla.\nQuasi vel dignissimos voluptatem aperiam ratione sed eligendi.\nAut eos impedit corporis quia.\nVelit quod fuga id voluptas dolorum eveniet beatae.\nVoluptatem consequuntur eius culpa qui asperiores ut ut repellendus.",
+        "price": "4",
+        "stock": "4",
+        "category": "teenager",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?81978",
+          "https://loremflickr.com/640/480/abstract?24600",
+          "https://loremflickr.com/640/480/abstract?45852"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "hide",
+        "description": "Repellendus perferendis unde aut sunt et ratione libero.\nUllam sit ut deleniti ducimus quia velit iusto accusantium.\nDolore ducimus alias placeat autem ipsum.\nAut blanditiis error.\nAlias iure voluptatem.",
+        "price": "5",
+        "stock": "3",
+        "category": "townhouse",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?43462",
+          "https://loremflickr.com/640/480/abstract?49531",
+          "https://loremflickr.com/640/480/abstract?44534"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "rake",
+        "description": "Earum architecto laudantium eligendi non enim quia sint sit quibusdam.\nAsperiores tempore rerum incidunt.\nMaiores est quis expedita dolore animi omnis.\nQuam minus autem quos.\nUnde et provident sed laudantium.",
+        "price": "4",
+        "stock": "1",
+        "category": "benefit",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?33375",
+          "https://loremflickr.com/640/480/abstract?32900",
+          "https://loremflickr.com/640/480/abstract?43797"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "marmalade",
+        "description": "Qui dolorem repudiandae ipsum quos dignissimos.\nNecessitatibus aliquid hic.\nPossimus qui similique minima omnis amet quas.\nDicta dolor autem.\nIn ducimus molestiae veritatis quasi.",
+        "price": "7",
+        "stock": "7",
+        "category": "tan",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?77970",
+          "https://loremflickr.com/640/480/abstract?70875",
+          "https://loremflickr.com/640/480/abstract?45603"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "vest",
+        "description": "Laborum saepe velit.\nConsequuntur non nostrum et at.\nEt delectus et ipsa ipsum nesciunt minus corporis ipsa dicta.\nQuaerat rerum voluptatem voluptatem sint commodi sint.\nSoluta magnam cupiditate ullam.",
+        "price": "6",
+        "stock": "7",
+        "category": "fob",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?31061",
+          "https://loremflickr.com/640/480/abstract?77103",
+          "https://loremflickr.com/640/480/abstract?32921"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "wake",
+        "description": "Reiciendis est illo.\nVoluptatem itaque magni officia ipsam ducimus.\nEt sed pariatur quasi pariatur quia ut animi odit velit.\nCulpa ut aliquid ea sit qui error ut.\nPorro possimus et.",
+        "price": "6",
+        "stock": "4",
+        "category": "sea",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?10944",
+          "https://loremflickr.com/640/480/abstract?17259",
+          "https://loremflickr.com/640/480/abstract?98839"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "cannon",
+        "description": "Illo distinctio porro optio sed voluptatum.\nVoluptatem voluptas nostrum.\nVoluptas inventore aut suscipit unde est eveniet corporis iusto.\nAsperiores consequatur doloribus repudiandae.\nNostrum omnis temporibus quos dolorum et labore facilis voluptas cupiditate.",
+        "price": "9",
+        "stock": "8",
+        "category": "tulip",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?14117",
+          "https://loremflickr.com/640/480/abstract?62114",
+          "https://loremflickr.com/640/480/abstract?95365"
+        ]
+      },
+      {
+        "id": 26,
+        "name": "command",
+        "description": "Ullam impedit sint aut dolorem.\nEos ducimus dolorem.\nEsse repellendus totam asperiores.\nAd voluptatem ullam.\nDolorem quia facilis incidunt assumenda.",
+        "price": "5",
+        "stock": "4",
+        "category": "institution",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?73947",
+          "https://loremflickr.com/640/480/abstract?15907",
+          "https://loremflickr.com/640/480/abstract?45276"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "fleck",
+        "description": "Magni tenetur non rerum omnis dolor.\nAut corporis eveniet voluptas assumenda soluta vel consequatur.\nQuia quia repellat eum omnis.\nMagni cumque dicta non et alias odio dolorum est.\nQuos voluptatem illum ut.",
+        "price": "6",
+        "stock": "4",
+        "category": "warrant",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?30169",
+          "https://loremflickr.com/640/480/abstract?56874",
+          "https://loremflickr.com/640/480/abstract?32467"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "butane",
+        "description": "Qui ea vero et.\nEos nemo magni dolor ipsa praesentium aliquid reiciendis rerum.\nRerum eos dicta esse ratione et quia voluptatem animi amet.\nIure quia corrupti.\nEt dolorem veritatis cupiditate cumque nulla.",
+        "price": "3",
+        "stock": "3",
+        "category": "believer",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?9796",
+          "https://loremflickr.com/640/480/abstract?93691",
+          "https://loremflickr.com/640/480/abstract?27308"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "flag",
+        "description": "Quia omnis dolorem dolor.\nDolorum quisquam qui voluptas.\nEos voluptatem et est veritatis magni non deleniti.\nPerspiciatis nihil magnam culpa qui sunt vitae dignissimos officiis facilis.\nDeserunt veritatis aut molestiae similique adipisci dolorum eaque dicta.",
+        "price": "7",
+        "stock": "8",
+        "category": "bondsman",
+        "image": [
+          "https://loremflickr.com/640/480/abstract?33061",
+          "https://loremflickr.com/640/480/abstract?60139",
+          "https://loremflickr.com/640/480/abstract?3504"
+        ]
       }
 ]}

@@ -1,0 +1,16 @@
+<div class="card bg-dark text-white" > 
+    <!-- <img [src]="product.image[0]" (error)="imgError" class="card-img" alt="..." [id]="product.id"> -->
+    <app-image [img]="product.image[0]"></app-image>
+
+    <div class="card-img-overlay">
+        <div class="card-body">
+            <h5 class="card-title">{{product.name}}</h5>
+            <hr>
+            <p class="card-text">{{product.description}}</p>
+            <div class="row">
+                <span class="badge bg-success col-md-auto m-2">Precio: {{product.price | currency: 'US'}}</span>
+                <span class="badge bg-warning text-dark col-md-auto m-2">stock: {{product.stock}}</span>
+            </div>
+        </div>
+    </div>
+</div>

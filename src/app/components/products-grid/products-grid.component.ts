@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, Output, OnInit, EventEmitter } from '@angular/core';
 import { Product } from '../../interfaces/products';
 import { Router } from '@angular/router';
 
@@ -10,33 +10,19 @@ import { Router } from '@angular/router';
 export class ProductsGridComponent implements OnInit {
 
   @Input() products!: Product[];
+  @Output() idProduct = new EventEmitter<string>(); 
 
-  hiddenInfo: boolean = true;
-
-  constructor( private router: Router ) { }
+  constructor( ) { }
 
   ngOnInit(): void {
-
-    //TODO: listener
-    window.addEventListener('mouseover', this.print );
-
-    console.log(this.products);
     
   }
 
-
-  print(event: MouseEvent){
-    let i = event.target;
+  goToProduct(idProduct: string){
+    this.idProduct.emit(idProduct);
   }
 
-  goToProduct(idProduct: String){
 
-    console.log("dirigiendo a producto");
-    
-    if(idProduct != null){
-      this.router.navigate(['/product',idProduct])
-    }
-  }
 
   
 

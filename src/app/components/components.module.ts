@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductsGridComponent } from './products-grid/products-grid.component';
 import { SlidesComponent } from './slides/slides.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductCardComponent } from './product-card/product-card.component';
+import { ImageComponent } from './image/image.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     NavbarComponent,
     ProductsGridComponent,
     SlidesComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ProductCardComponent,
+    ImageComponent
   ],
   exports:[
     FooterComponent,

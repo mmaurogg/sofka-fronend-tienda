@@ -1,0 +1,14 @@
+div .card-body {
+    visibility: hidden;
+}
+
+div:hover .card-body{
+    visibility: visible;
+} 
+
+.card-body{
+    height: 260px;
+    width: 100%;
+    background-color: rgba(0, 0, 0 , 0.3);
+    padding: 5px 30px;
+}

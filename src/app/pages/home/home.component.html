@@ -6,6 +6,10 @@
     </div>
 </div>
 
+
 <h3 class="mt-5">Productos</h3>
 <hr>
-<app-products-grid *ngIf="products.length > 0" [products]="products"></app-products-grid>
+<app-products-grid *ngIf="products.length > 0; else elseImg" [products]="products" (idProduct)="onGoToProduct($event)"></app-products-grid>
+<ng-template #elseImg>
+    <img src="" >
+</ng-template>

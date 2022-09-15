@@ -1,5 +1,5 @@
 import { Component, OnInit  } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Product } from 'src/app/interfaces/products';
 import { ProductService } from '../../services/product.service';
 
@@ -14,7 +14,8 @@ export class SearchComponent implements OnInit  {
   load: boolean = true;
   
   constructor( private activatedRoute: ActivatedRoute,
-              private productService: ProductService) {
+              private productService: ProductService,
+              private router: Router) {
 
                 
                }
@@ -26,6 +27,8 @@ export class SearchComponent implements OnInit  {
 
   loadProducts(){
 
+    //const {text} = this.activatedRoute.snapshot.params;
+    
     this.activatedRoute.params.subscribe( params => {
       this.productService.searchProducts(params['text']).subscribe( resp => {
         this.products = resp;    
@@ -34,10 +37,14 @@ export class SearchComponent implements OnInit  {
         
       })
     })
+  }
 
-    //const {text} = this.activatedRoute.snapshot.params;
+  onGoToProduct(idProduct: string){
+    console.log("dirigiendo a producto");
     
-    
+    if(idProduct != null){
+      this.router.navigate(['/product',idProduct])
+    }
   }
 
 }

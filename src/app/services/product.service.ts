@@ -12,12 +12,12 @@ export class ProductService {
 
   URL = "http://localhost:3000/products";
 
-  getProducts(): Observable<Product[]> {
-    return this.http.get(this.URL).pipe(map( (resp:any) => resp))
+  getProducts(){
+    return this.http.get<Product[]>(this.URL).pipe(map( (resp:any) => resp))
   }
 
-  getProductById(idProduct:string): Observable<Product>{
-    return this.http.get(this.URL).pipe(map( (resp:any) => {
+  getProductById(idProduct:string){
+    return this.http.get<Product>(this.URL).pipe(map( (resp:any) => {
       const products:Product[] = resp;
 
       const productFilter = products.filter(product => product.id == idProduct );
@@ -27,9 +27,9 @@ export class ProductService {
     }))
   }
 
-  searchProducts( text: string ): Observable<Product[]> {
+  searchProducts( text: string ) {
 
-    return this.http.get(this.URL).pipe(map((resp:any) => {
+    return this.http.get<Product>(this.URL).pipe(map((resp:any) => {
       
       const products:Product[] = resp;
       let productFilter:Product[] = [];

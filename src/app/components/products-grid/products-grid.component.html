@@ -2,19 +2,6 @@
 
     <div class="row row-cols-1 row-cols-md-2 g-4 0" >
         <div class="col" *ngFor="let product of products">
-            <div class="card bg-dark text-white"(mouseover)="hiddenInfo" (click)="goToProduct(product.id)">
-                <img [src]="product.image[0]" class="card-img" alt="..." [id]="product.id">
-                <div class="card-img-overlay" *ngIf="hiddenInfo">
-                    <div class="card-body">
-                        <h5 class="card-title">{{product.name}}</h5>
-                        <hr>
-                        <p class="card-text">{{product.description}}</p>
-                        <div class="row">
-                            <span class="badge bg-success col-md-auto m-2">Precio: {{product.price | currency}}</span>
-                            <span class="badge bg-warning text-dark col-md-auto m-2">stock: {{product.stock}}</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <app-product-card [product]="product" (click)="goToProduct(product.id)"></app-product-card>
         </div>
 </div>

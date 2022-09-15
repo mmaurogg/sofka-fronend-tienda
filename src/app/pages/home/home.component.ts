@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   products:Product[]=[];
-  images: string[]=[]
+  images:string[]=[]
 
   constructor( private productService: ProductService,
               private router: Router) { }
@@ -31,6 +31,15 @@ export class HomeComponent implements OnInit {
 
   imagesSlides(){
     this.products.forEach( prod => this.images.push(prod.image[0]))
+  }
+
+
+  onGoToProduct(idProduct: string){
+    console.log("dirigiendo a producto");
+    
+    if(idProduct != null){
+      this.router.navigate(['/product',idProduct])
+    }
   }
 
 
