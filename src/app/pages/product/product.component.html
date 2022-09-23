@@ -1,10 +1,10 @@
 <div class="row mt-5" *ngIf="product != null">
 
     <div class="col-6">
-        <app-slides [images]="images"> </app-slides>
+        <app-slides [images]="images" *ngIf="images.length > 0"> </app-slides>
     </div>
 
-    <div class="col-6">
+    <div class="col-6" *ngIf="product">
         <app-product-detail [product]="product"></app-product-detail>
     </div>
     

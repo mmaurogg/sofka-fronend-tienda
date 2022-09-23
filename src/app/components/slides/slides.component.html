@@ -2,7 +2,8 @@
   <div id="carouselSlides" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item" *ngFor="let image of images; let i = index" [class.active]="i == 0" >
-        <img [src]="image" class="img-fluid mx-auto d-block" alt="...">
+        <!-- <img [src]="image" class="img-fluid mx-auto d-block" alt="..."> -->
+        <app-image class="img-fluid mx-auto d-block" [img]="image"></app-image>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlides" data-bs-slide="prev">
